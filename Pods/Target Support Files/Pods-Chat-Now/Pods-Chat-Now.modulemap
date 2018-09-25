@@ -1,0 +1,6 @@
+framework module Pods_Chat_Now {
+  umbrella header "Pods-Chat-Now-umbrella.h"
+
+  export *
+  module * { export * }
+}

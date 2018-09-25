@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>35594255768-u394q4r5i9612gg07p6kt71im3bcbds5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.35594255768-u394q4r5i9612gg07p6kt71im3bcbds5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCw3C3r5i11uyjKdLr48YdbI4_tZmEX4zQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>35594255768</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.impeltown.Chat-Now</string>
+	<key>PROJECT_ID</key>
+	<string>chat-now-2d752</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chat-now-2d752.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:35594255768:ios:ff2772c3de293915</string>
+	<key>DATABASE_URL</key>
+	<string>https://chat-now-2d752.firebaseio.com</string>
+</dict>
+</plist>
