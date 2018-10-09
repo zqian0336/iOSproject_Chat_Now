@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="Chat_Now" customModuleProvider="target">
+            <connections>
+                <outlet property="Email" destination="xGk-xO-eM8" id="XJr-63-9GC"/>
+                <outlet property="EmailBackView" destination="nCd-mM-xG6" id="zjP-Gy-GI4"/>
+                <outlet property="LoginbuttonBackView" destination="jPi-jc-WPY" id="t3s-wm-sRI"/>
+                <outlet property="Password" destination="gHm-c4-f3f" id="BqE-b1-1nE"/>
+                <outlet property="PasswordBackView" destination="Nxe-1f-UeX" id="d2d-LC-H6t"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balloon-1014411_1920的副本" translatesAutoresizingMaskIntoConstraints="NO" id="znL-zz-Pke">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nxe-1f-UeX">
+                    <rect key="frame" x="20" y="258" width="335" height="48"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="gHm-c4-f3f">
+                            <rect key="frame" x="12" y="12" width="311" height="24"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="gHm-c4-f3f" firstAttribute="leading" secondItem="Nxe-1f-UeX" secondAttribute="leading" constant="12" id="1lY-7M-Jha"/>
+                        <constraint firstItem="gHm-c4-f3f" firstAttribute="top" secondItem="Nxe-1f-UeX" secondAttribute="top" constant="12" id="9JG-LI-FLp"/>
+                        <constraint firstAttribute="trailing" secondItem="gHm-c4-f3f" secondAttribute="trailing" constant="12" id="mo4-td-xEY"/>
+                        <constraint firstAttribute="bottom" secondItem="gHm-c4-f3f" secondAttribute="bottom" constant="12" id="zM6-B9-vrL"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nCd-mM-xG6">
+                    <rect key="frame" x="20" y="190" width="335" height="48"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xGk-xO-eM8">
+                            <rect key="frame" x="12" y="12" width="311" height="24"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="xGk-xO-eM8" secondAttribute="bottom" constant="12" id="Pfl-7v-Llv"/>
+                        <constraint firstItem="xGk-xO-eM8" firstAttribute="leading" secondItem="nCd-mM-xG6" secondAttribute="leading" constant="12" id="e81-ke-x8p"/>
+                        <constraint firstItem="xGk-xO-eM8" firstAttribute="top" secondItem="nCd-mM-xG6" secondAttribute="top" constant="12" id="ga0-zp-f1q"/>
+                        <constraint firstAttribute="trailing" secondItem="xGk-xO-eM8" secondAttribute="trailing" constant="12" id="yW2-9A-6FG"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPi-jc-WPY">
+                    <rect key="frame" x="150" y="346" width="75" height="46"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFu-Gd-vCr">
+                            <rect key="frame" x="18" y="8" width="39" height="30"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                            <state key="normal" title="log in">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="LoginPressed" destination="-1" eventType="touchUpInside" id="0UC-Cw-Skb"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="qFu-Gd-vCr" secondAttribute="bottom" constant="8" id="4cf-ei-8ct"/>
+                        <constraint firstItem="qFu-Gd-vCr" firstAttribute="top" secondItem="jPi-jc-WPY" secondAttribute="top" constant="8" id="AV0-aI-92m"/>
+                        <constraint firstItem="qFu-Gd-vCr" firstAttribute="centerX" secondItem="jPi-jc-WPY" secondAttribute="centerX" id="Bj1-mi-Upf"/>
+                        <constraint firstAttribute="trailing" secondItem="qFu-Gd-vCr" secondAttribute="trailing" constant="18" id="oFj-LV-zxn"/>
+                        <constraint firstItem="qFu-Gd-vCr" firstAttribute="leading" secondItem="jPi-jc-WPY" secondAttribute="leading" constant="18" id="yWf-kT-Dyo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jPi-jc-WPY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6y6-WB-6zX"/>
+                <constraint firstItem="Nxe-1f-UeX" firstAttribute="top" secondItem="nCd-mM-xG6" secondAttribute="bottom" constant="20" id="7OB-fJ-QhT"/>
+                <constraint firstItem="znL-zz-Pke" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MP5-wG-gia"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nCd-mM-xG6" secondAttribute="trailing" constant="20" id="PXz-Il-a0t"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="znL-zz-Pke" secondAttribute="trailing" id="SGf-4y-1KB"/>
+                <constraint firstItem="Nxe-1f-UeX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="UAL-8q-hSy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nxe-1f-UeX" secondAttribute="trailing" constant="20" id="XJa-kN-HSA"/>
+                <constraint firstItem="jPi-jc-WPY" firstAttribute="top" secondItem="Nxe-1f-UeX" secondAttribute="bottom" constant="40" id="aGL-P2-N2c"/>
+                <constraint firstItem="Nxe-1f-UeX" firstAttribute="top" secondItem="nCd-mM-xG6" secondAttribute="bottom" constant="20" id="brm-Ln-qG2"/>
+                <constraint firstItem="nCd-mM-xG6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="pFR-4y-VO7"/>
+                <constraint firstAttribute="bottom" secondItem="znL-zz-Pke" secondAttribute="bottom" id="qrZ-7K-trS"/>
+                <constraint firstItem="nCd-mM-xG6" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="170" id="u7r-6Z-XEQ"/>
+                <constraint firstItem="znL-zz-Pke" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="x1g-Uw-8Ox"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="balloon-1014411_1920的副本" width="679" height="1191"/>
+    </resources>
+</document>
